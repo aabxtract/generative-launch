@@ -1,0 +1,32 @@
+{
+  "command": "forge test --match-path test/GenerativeLaunch.t.sol --fork-url <mainnet>",
+  "compiler": "0.8.26+commit.8a97fa7a.Windows.msvc",
+  "results": [
+    "Ran 23 tests for test/GenerativeLaunch.t.sol:GenerativeLaunchTest",
+    "[PASS] testFuzz_feeRounding(uint128,bool) (runs: 256, μ: 11168, ~: 11174)",
+    "[PASS] test_allNftsRetired_buyAndSellStillWork() (gas: 45498752)",
+    "[PASS] test_buy_feeSplitExact() (gas: 281085)",
+    "[PASS] test_childLaunch_retiresAndBurns() (gas: 1379134)",
+    "[PASS] test_creatorClaim_paysCreatorWallet() (gas: 339632)",
+    "[PASS] test_escrow_vestsOverSevenDaysFromLaunch() (gas: 237584)",
+    "[PASS] test_graph_cannotBeRunTwice() (gas: 76974)",
+    "[PASS] test_holderFees_claimForPaysOwner() (gas: 350338)",
+    "[PASS] test_holderFees_claimInEth() (gas: 402884)",
+    "[PASS] test_holderFees_notYoursReverts() (gas: 47407)",
+    "[PASS] test_hook_rejectsSecondPool() (gas: 41538)",
+    "[PASS] test_initializer_onlyGraphFactory() (gas: 40859)",
+    "[PASS] test_launch_initialBuyPaysAllFees() (gas: 24797)",
+    "[PASS] test_launch_seedsLockedLiquidityAndInitialBuy() (gas: 63962)",
+    "[PASS] test_module_isProgrammablesV2() (gas: 22380)",
+    "[PASS] test_protection_onlyProgrammableRouterInFirstFiveMinutes() (gas: 350796)",
+    "[PASS] test_protection_walletReceiveCapForFiveMinutes() (gas: 345967)",
+    "[PASS] test_quoteFeeSplit_matchesConstants() (gas: 7461)",
+    "[PASS] test_retire_notBeforeVestDone() (gas: 53857)",
+    "[PASS] test_retire_onlyHolderDecides() (gas: 739694)",
+    "[PASS] test_sell_feesOnGrossEthOut() (gas: 526602)",
+    "[PASS] test_token_frozenBeforeStart_noOwner() (gas: 12062)",
+    "[PASS] test_vault_hasNoOwner() (gas: 10226)",
+    "Suite result: ok. 23 passed; 0 failed; 0 skipped; finished in 71.03s (58.79s CPU time)",
+    "Ran 1 test suite in 72.29s (71.03s CPU time): 23 tests passed, 0 failed, 0 skipped (23 total tests)"
+  ]
+}
