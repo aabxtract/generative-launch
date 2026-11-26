@@ -29,9 +29,12 @@ repository and the commit that contains these bytes.
 | `evidence/foundry-mainnet-fork-tests.json` | `b16558b93e71367ca28a654100c3eab4ed9de0c9b2363104a0a6eab6996d2ec1` |
 | `evidence/generative-preflight.json` | `c0faca074c9907813c04e81f26699690a06019c068559e7fd99fe530ef5dfc39` |
 
-`evidence/rehearsal-*.json` (added after submission, not hashed in the request) is the full rehearsal of the submitted
-graph on a mainnet fork through Programmable's real Graph Factory: addresses, graph gas, opening buy, locked liquidity,
-fee payouts on buys and sells, and the "every NFT retired" scenario.
+**Buy, sell and platform-fee payout results for the current request: [`evidence/TRADE-RESULTS.md`](evidence/TRADE-RESULTS.md)**
+(raw: [`evidence/rehearsal.json`](evidence/rehearsal.json), which names the request's sha256). Both are linked from the
+launch request's project metadata. They are the full rehearsal of the request on a mainnet fork through Programmable's
+real Graph Factory: addresses, graph gas, opening buy, fee payouts on buys and sells, and the "every NFT retired"
+scenario. They are produced by packing, after the source commit, so they are not hashed in the request.
+`evidence/rehearsal-f25b9821.json` is the same report for the earlier request f25b9821.
 
 ## Reproduce
 

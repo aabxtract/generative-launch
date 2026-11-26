@@ -1,0 +1,192 @@
+{
+  "requestSha256": "sha256:37c20656745a22e24180a9da40937bb2d3d98e913acd6846b1c60ef5ff091ead",
+  "sourceRevision": "ab4fd7bf32feb1e5dfddddc5809bfe7295c4fc36",
+  "forkBlock": 26501330,
+  "checks": [
+    {
+      "ok": true,
+      "name": "Graph Factory deploys and initializes the whole graph in one transaction",
+      "detail": "gas 9626752"
+    },
+    {
+      "ok": true,
+      "name": "holder-vault deployed at its predicted address",
+      "detail": "0x204129d18f505C6F98C95D4EC7799702cfFcB590"
+    },
+    {
+      "ok": true,
+      "name": "initializer deployed at its predicted address",
+      "detail": "0xDEdC9D4487b39be071Aa2c16f1bE28d2bf233B03"
+    },
+    {
+      "ok": true,
+      "name": "token deployed at its predicted address",
+      "detail": "0x80aEfb43a28024bCeBDE585243C1372E3A1146C4"
+    },
+    {
+      "ok": true,
+      "name": "hook deployed at its predicted address",
+      "detail": "0x0bd886B68B37A5b59b1Cfb8AE3C8C32d12a7A0Cc"
+    },
+    {
+      "ok": true,
+      "name": "Opening buy delivered GENV to the launch wallet",
+      "detail": "57534.503330759220816203 GENV for 0.00063 ETH"
+    },
+    {
+      "ok": true,
+      "name": "Programmable team wallet paid in ETH on the opening buy",
+      "detail": "0.00000189 ETH"
+    },
+    {
+      "ok": true,
+      "name": "HolderVault bound to the hook",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "name": "HolderVault holds the 2% holder escrow",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "name": "Buys and sells through the pool after the protection window",
+      "detail": "4 buys of 0.5 ETH + 4 sells"
+    },
+    {
+      "ok": true,
+      "name": "Programmable 0.3% paid automatically in ETH to the team wallet on trades",
+      "detail": "0.009568901104905136 ETH"
+    },
+    {
+      "ok": true,
+      "name": "Holder share equals Programmable's share (both 0.3%)",
+      "detail": "0.009568901104905132 ETH"
+    },
+    {
+      "ok": true,
+      "name": "Creator share is 4% (400/30 of Programmable's)",
+      "detail": "0.127585348065401784 ETH"
+    },
+    {
+      "ok": true,
+      "name": "All 281 NFTs minted on the fork",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "name": "7-day escrow vest done",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "name": "A non-holder cannot retire an NFT (reverts)",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "name": "Holder retires NFT #1 and the ETH fees + vested GENV go to the recipient the holder named",
+      "detail": "0.000034059754821726 ETH + 71174 GENV"
+    },
+    {
+      "ok": true,
+      "name": "All 281 NFTs retired by their holder: liveSupply is 0",
+      "detail": "0 reverts"
+    },
+    {
+      "ok": true,
+      "name": "Rounding dust from the per-NFT split moved to the residual",
+      "detail": "126 wei"
+    },
+    {
+      "ok": true,
+      "name": "Residual recipient is the fixed creator fee wallet",
+      "detail": "0x078A2ee79c8b197C4eB488700ec476f12AdDbF26"
+    },
+    {
+      "ok": true,
+      "name": "Buys and sells work with zero NFTs left",
+      "detail": "4 buys of 0.5 ETH + 4 sells"
+    },
+    {
+      "ok": true,
+      "name": "Programmable 0.3% still paid in ETH in the swap (equal to the holder 0.3%)",
+      "detail": "0.01139839203545757 ETH"
+    },
+    {
+      "ok": true,
+      "name": "Holder 0.3% held as residual (no NFT left to share it)",
+      "detail": "0.011398392035457566 ETH"
+    },
+    {
+      "ok": true,
+      "name": "Creator 4% unchanged",
+      "detail": "0.15197856047276757 ETH"
+    },
+    {
+      "ok": true,
+      "name": "Anyone can trigger sendResidual; ETH goes only to the creator fee wallet",
+      "detail": "0.011398392035457692 ETH"
+    },
+    {
+      "ok": true,
+      "name": "Vault owes nothing afterwards",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "name": "holder-vault runtime hash in the request matches the deployed code",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "name": "initializer runtime hash in the request matches the deployed code",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "name": "token runtime hash in the request matches the deployed code",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "name": "hook runtime hash in the request matches the deployed code",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "name": "programmable-launch validate (local) passes",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "name": "Programmable remote preflight accepts the request",
+      "detail": ""
+    }
+  ],
+  "graphGas": "9626752",
+  "fees": {
+    "team": "9568901104905136",
+    "holders": "9568901104905132",
+    "creator": "127585348065401784"
+  },
+  "allRetired": {
+    "team": "11398392035457570",
+    "residual": "11398392035457566",
+    "creator": "151978560472767570",
+    "dust": "126",
+    "residualPaid": "11398392035457692"
+  },
+  "predicted": {
+    "holder-vault": "0x204129d18f505C6F98C95D4EC7799702cfFcB590",
+    "initializer": "0xDEdC9D4487b39be071Aa2c16f1bE28d2bf233B03",
+    "token": "0x80aEfb43a28024bCeBDE585243C1372E3A1146C4",
+    "hook": "0x0bd886B68B37A5b59b1Cfb8AE3C8C32d12a7A0Cc"
+  },
+  "nft": {
+    "address": "0x437876AF69553CD9c31046f96DC1DfE4C76278C6",
+    "predicted": false,
+    "walletNonce": 3
+  },
+  "_about": "Full rehearsal of this exact request (requestSha256 above) on a local mainnet fork: deployGraph through Programmable's real Graph Factory (impersonating the router), then buys and sells. Nothing was sent to mainnet."
+}
