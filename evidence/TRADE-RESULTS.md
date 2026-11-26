@@ -1,6 +1,6 @@
 # Buy, sell and platform-fee payout results
 
-For the launch request with **requestSha256 `sha256:37c20656745a22e24180a9da40937bb2d3d98e913acd6846b1c60ef5ff091ead`**, source commit
+Launch **`7898909a-ccda-456b-b1f5-4a919b275579`**: the launch request with **requestSha256 `sha256:37c20656745a22e24180a9da40937bb2d3d98e913acd6846b1c60ef5ff091ead`**, source commit
 [`ab4fd7b`](https://github.com/aabxtract/generative-launch/tree/ab4fd7bf32feb1e5dfddddc5809bfe7295c4fc36).
 Raw report: [`rehearsal.json`](rehearsal.json). All 32 checks passed, 0 failed.
 
